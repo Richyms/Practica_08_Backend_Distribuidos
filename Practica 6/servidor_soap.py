@@ -42,7 +42,6 @@ class CalculadoraFintech(ServiceBase):
             
         return f"Envio fijo (por volumen/fragilidad): ${round(extra, 2)}"
 
-# Configuramos la Aplicación SOAP
 app = Application([CalculadoraFintech], 
                   tns='mx.escom.distribuidos.calculadora',
                   in_protocol=Soap11(validator='lxml'),
