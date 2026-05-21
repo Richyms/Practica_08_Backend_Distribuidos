@@ -1,0 +1,77 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+.env.development
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm
+.idea/
+*.iws
+
+# VS Code
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Documentación
+docs/_build/
+
+# MongoDB
+mongodb-data/
+
+# Tokens de autenticación OAuth
+token.pickle
+*.pickle
+
+# Credenciales de Google
+credentials_oauth.json
+credentials.json
+*.json
